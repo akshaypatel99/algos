@@ -16,3 +16,5 @@ function primeNumbersUpTo(num) {
 	}
 	return primeArray;
 }
+
+console.log(primeNumbersUpTo(100));

@@ -19,3 +19,6 @@ function validAnagram(str1, str2) {
 
 console.log(validAnagram('anagram', 'nagaram')); // true
 console.log(validAnagram('rat', 'car')); // false
+console.log(validAnagram('awesome', 'awesom')); // false
+console.log(validAnagram('qwerty', 'qeywrt')); // true
+console.log(validAnagram('texttwisttime', 'timetwisttext')); // true
