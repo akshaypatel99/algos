@@ -3,7 +3,7 @@ function cascade(number) {
 	if (number === undefined) return;
 	let str = number.toString();
 	console.log(Number(str));
-	if (str.length === 2) return;
+	if (str.length === 1) return;
 	cascade(str.slice(0, -1));
 	console.log(Number(str));
 }
